@@ -4,10 +4,17 @@ body {
 
 .outer-container {
 	display: flex;
+	justify-content: space-around;
+	margin: 32px;
+	gap: 52px;
 }
 
-.outer-container {
+.inner-container {
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
 }
 
 img {
@@ -19,6 +26,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
